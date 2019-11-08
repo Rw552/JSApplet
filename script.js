@@ -26,7 +26,7 @@ request.onload = function(){
 
             //create an h1 and set text content to the film title
             const h1 = document.createElement('h1');
-            h1.textcontent = movie.title;
+            h1.textContent = movie.title;
 
             //create a p and set the text content to the film description
             const p = document.createElement('p');
