@@ -8,7 +8,7 @@ request.onload = function(){
     //begin accessing JSON data here
     var data = JSON.parse(this.response);
 
-    data.forEach(movie=>{
+    data.forEach( movie => {
         console.log(movie.title);
     });
 };
