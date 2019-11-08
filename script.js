@@ -14,4 +14,4 @@ request.onload = function(){
 };
 
 //send request
-request.send();
+request.send(); 
